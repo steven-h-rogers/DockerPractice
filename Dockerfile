@@ -12,3 +12,5 @@ COPY ./src ./src
 
 #how to run the program (-u flag for unbuffered output to have immediate outputs )
 CMD [ "python", "-u", "./src/main.py" ]
+
+#name of container dockerdemo
